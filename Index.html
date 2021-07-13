@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AB Gymnasiums</title>
+    <link rel="stylesheet" href="/css/style1.css" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" 
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <style>
+    .hero {
+     background: linear-gradient(to right, rgba(0,0,0,0.4), rgba(0,0,0,0.1)),
+     url('../img/Gym1.jpeg');
+     height: 100vh;
+     background-position: center;
+     background-size: cover;
+     padding: 0.5rem calc((100vw - 1200px) / 2);
+     display: flex;
+     justify-content: flex-start;
+     align-items: center;
+    }
+
+    .email {
+    background: linear-gradient(180deg,
+    rgba(0,0,0,0.6) 0%,
+    rgba(0,0,0,0.6) 35%,
+    rgba(0,0,0,0.1) 100%
+    ),
+    url('../img/Gym3.jpeg') no-repeat center;
+    background-size: cover;
+    height: 450 px;
+    width: 100%;
+    padding: 5rem calc((100vw - 1300px) / 2);
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <a href="/" class="navbar__logo">AB</a>
+        <div class="navbar__toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <div class="navbar__menu">
+            <a href="/" class="navbar__link">Home</a>
+            <a href="#ser" class="navbar__link">Services</a>
+            <a href="#mem" class="navbar__link">Plans</a>
+            <a href="#tea" class="navbar__link">Trainers</a>
+        </div>
+    </nav>
+    <div class="hero">
+        <div class="hero__content">
+            <h1 class = "animate-hero">AB Gymnasium</h1>
+            <p class = "animate-hero">Join Now for 2K</p>
+            <a href="/form" class ="button animate-hero">Get Started</a>
+        </div>
+    </div>
+    <div class="services" id="ser">
+        <div class="services__container">
+            <div>
+                <p class="topline animate-services">Features</p>
+                <h1 class="services__heading animate-services">What we offer</h1>
+                <div class="services__features">
+                    <p class="services__feature animate-services"><i class="fas fa-check-circle"></i>Group Fitness Classes</p>
+                    <p class="services__feature animate-services"><i class="fas fa-check-circle"></i>Mental Wellness</p>
+                    <p class="services__feature animate-services"><i class="fas fa-check-circle"></i>Inner Pool</p>
+                    <p class="services__feature animate-services"><i class="fas fa-check-circle"></i>Steam Room and Sauna</p>
+                    <p class="services__feature animate-services"><i class="fas fa-check-circle"></i>Martial Arts</p>
+                    <p class="services__feature animate-services"><i class="fas fa-check-circle"></i>Open 24x7</p>
+                    <p class="services__feature animate-services"><i class="fas fa-check-circle"></i>Training Programs of<br>
+                    Globally Renowned Fitness Influencers</p>
+                    <p class="services__feature"><i class="fas fa-check-circle"></i>Cycle Programmes Consultation</p>
+                </div>
+            </div>
+            <div>
+                <img src="/img/Gym2.jpeg" alt = "gym" class="services__img animate-img"></image>
+            </div>
+        </div>
+    </div>
+    <div class="memberships" id="mem">
+        <h1>View Our plans</h1>
+        <p class = "membership__desc">Get Started today and receive 25% off your first month</p>
+        <div class = "membership__wrapper">
+            <div class="membership__card">
+                <div class="membership__title">
+                    <i class="fas fa-dumbbell card-icon"></i>
+                    <h3>Starter</h3>
+                </div>
+                <div class="membership__perks">
+                    <p>Get access to the entire gym</p>
+                    <p>0.5k Per Month</p>
+                    <br>
+                    <br>
+                </div>
+                <a href = "form.html" class="button">Sign Up</a>
+            </div>
+            <div class="membership__card">
+                <div class="membership__title">
+                    <i class="fas fa-bicycle card-icon"></i>
+                    <h3>GOLD</h3>
+                </div>
+                <div class="membership__perks">
+                    <p>1k Per Month</p>
+                    <p>8k Yearly Package</p>
+                    <p>Personal training with Diet plan</p>
+                    <br>
+                    <br>
+                </div>
+                <a href = "form.html" class="button">Sign Up</a>
+            </div>
+            <div class="membership__card">
+                <div class="membership__title">
+                    <i class="fas fa-dumbbell card-icon"></i>
+                    <h3>Platinum</h3>
+                </div>
+                <div class="membership__perks">
+                    <p>2k Per Month</p>
+                    <p>10k Yearly Package</p>
+                    <p>Get Access to all event specific training</p>
+                    <br>
+                    <br>
+                </div>
+                <a href = "form.html" class="button">Sign Up</a>
+            </div>
+        </div>
+    </div>
+    <div class="team" id="tea">
+        <div class="team__wrapper">
+            <div class="team__text">
+                <p class="topline">Private Training</p>
+                <h1>Meet Our Trainer</h1>
+                <p class = "team__desc">
+                   Certified and with over a decade of experience in cross-fit,bodybuilding ,and nutrition.
+                   Specialized in Strength,weight-loss and mobility Workout.
+                </p>
+            </div>
+            <div class="team__text">
+                <p class="topline">Free Trial</p>
+                <h1>2 weeks Free trial</h1>
+                <p class = "team__desc">
+                   Try working out for free for a period of 2 weeks to assess our trainer.
+                </p>
+            </div>
+
+            <div class="team__card">
+                <p>ARNAB DEB</p>
+                <img src="/img/Arnab1.jpeg" alt = "person" class="team__img" />
+            </div>
+            <div class="team__card">
+                <p>ARNAB DEB</p>
+                <img src="/img/Arnab2.jpeg" alt = "person" class="team__img" />
+            </div>
+            <div class="team__card">
+                <P>ARNAB DEB</P>
+                <img src="/img/Arnab3.jpeg" alt = "person" class="team__img" />
+            </div>
+            <div class="team__text">
+                <p class="topline">Free Trial</p>
+                <h1>Transformation Guranteed</h1>
+                <p class = "team__desc">
+                   Do fulfill the dream of being in your best shape.
+                   The free trial is to assure you that you are fit<br>
+                   for your desired goals.
+               </p>
+            </div>
+        </div>
+    </div>
+    <div class="email">
+        <div class="email__content">
+            <h1>Get Access to Members Only Perks</h1>
+            <p>Sign up for our newsletter below to get Rs.300 off your first Personal training session</p>
+            <form action = "#">
+                <div class="form__wrap">
+                    <label for = "email">
+                        <input type = "email" placeholder="Enter your email" id = "email">
+                        <button class="button" type = "submit">Sign Up</button>
+                    </label>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer__wrapper">
+            <div class="footer__desc">
+                <h1>AB GYMNASIUM</h1>
+                <P>Luxury Fitness Gym located in your hometown</P>
+                <p id = "phone">+91-8256997736</p>
+            </div>
+            <div class="footer__links">
+                <h2 class="footer__title">Contact us</h2>
+                <a href = "services.html" class = "footer__link">Contact</a>
+                <a href = "services.html" class = "footer__link">Support</a>
+                <a href = "services.html" class = "footer__link">Sponsorships</a>
+            </div>
+        </div>
+        <div class="footer__wraper">
+            <div class="footer__links">
+                <h2 class="footer__title">Social Media</h2>
+                <a href = "services.html" class = "footer__link">Instagram</a>
+                <a href = "services.html" class = "footer__link">Facebook</a>
+                <a href = "services.html" class = "footer__link">Linkedin</a>
+            </div>
+            <div class="footer__links">
+                <h2 class="footer__title">Memberships</h2>
+                <a href = "services.html" class = "footer__link">Pricing</a>
+                <a href = "services.html" class = "footer__link">Plans</a>
+                <a href = "services.html" class = "footer__link">FAQ</a>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/gsap.min.js"></script>
+    <script src = "app.js"></script>
+</body>
+</html>
